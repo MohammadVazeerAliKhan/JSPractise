@@ -99,9 +99,9 @@ checkPalindrome('wasim'); //Not a Palindrome
 // Write a JavaScript function that takes a positive integer as a parameter and prints all the prime numbers less than or equal to that integer. A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
 
 function prime(a){
-  for (let i=2; i<=a; i++){
+  for (let i=2; i<=a/2; i++){
     let count=0;
-    for (let j=2; j<i; j++){
+    for (let j=2; j<=i; j++){
       if (i%j == 0){
         break;
       }
