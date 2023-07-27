@@ -242,7 +242,7 @@ printFibonacci(20); // 0 1 1 2 3 5 8 13
 
 function printTable(n){
   for (let i=1; i<=10; i++){
-    console.log(n, ' * ', i, ' = ', n*i);
+    console.log(n + " * "+ i+ " = "+ n*i);
   }
 }
 
